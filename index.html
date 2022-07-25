@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <section class="container">
+        <div class="heading">
+          <h1>
+            Generate a<br />
+            <span class="green">random password</span>
+          </h1>
+          <p>Never use an insecure password again.</p>
+        </div>
+
+        <div class="button">
+          <span>
+            <p>Password Length:</p>
+            <input
+              type="number"
+              min="6"
+              max="25"
+              id="passLength"
+              required
+              placeholder="12"
+            />
+          </span>
+          <button id="passGeneratebtn-el">Generate passwords</button>
+        </div>
+
+        <hr />
+
+        <div class="passwords">
+          <span class="passbox">
+            <p id="randomPass1-el" class="password" onclick="copyTxt1()"></p>
+            <i
+              class="fa fa-copy"
+              onclick="copyTxt1()"
+              title="Click to Copy Text"
+            ></i>
+          </span>
+          <span class="passbox">
+            <p
+              id="randomPass2-el"
+              class="password"
+              onclick="copyTxt()"
+              title="Click to Copy Text"
+            ></p>
+            <i
+              class="fa fa-copy"
+              onclick="copyTxt()"
+              title="Click to Copy Text"
+            ></i>
+          </span>
+        </div>
+
+        <div class="issues">
+          <p id="issue">
+            Note : Please set the password length between 6 and 25 ⚠️
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

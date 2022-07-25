@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+
+}
+
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.green{
+    color: #4ADF86;
+}
+
+/* main/////////....============================ */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 1rem;
+    color: white;
+
+}
+
+.container{
+    background-color: #1F2937;
+    padding: 4rem 3rem;
+    width: 100%;
+    max-width: 550px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+
+  
+}
+
+div.heading h1{
+    font-weight: 800;
+    font-size: 42px;
+}
+
+div.heading p{
+font-style: normal;
+margin: 10px 0;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #D5D4D8;
+}
+
+div.button span{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+div.button span input {
+    width: 211px;
+    height: 39px;
+    border: 2px solid #4ADF86;
+    padding: 15px;
+    font-size: 18px;
+}
+
+div.button p {
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #D5D4D8;
+}
+
+div.button button {
+    padding: 9px 17px 9px 15px;   
+    background: #10B981;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer; 
+    outline: none;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    margin-top: 2.5rem;
+
+}
+
+div.button button:hover{
+    transform: translateY(3px);
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #1C1C1C;
+}
+
+div.passwords{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.passbox{
+    background: #273549;
+    border-radius: 6px;
+    width: auto;
+    height: 39px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.passbox p{
+    padding:10px 20px;
+    color: #55F991;
+
+
+}
+
+.issues{
+    text-align: center;
+    margin: 1rem 0;
+    color: #D5D4D8;
+
+}
