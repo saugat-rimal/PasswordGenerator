@@ -60,7 +60,7 @@ Users should be able to:
 
 ## Conclusion
 
-You can use this score board for any kinds of game or used to rate or marks points on something. You can edit the topic name " Basketball Scoreboard" and also the team name like "Home & "Guest to anything you like. This is where you can give a hat tip to anyone. This is the perfect place to give them some point credit.
+You can use this password generator for making your accounts secured. 
 
 Hope it will be useful and you will love it. ❤️
 
