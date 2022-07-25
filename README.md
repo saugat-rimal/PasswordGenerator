@@ -64,7 +64,8 @@ Users should be able to:
 
 ## Conclusion
 
-You can use this password generator for making your accounts secured. 
+You can use this password generator for making your accounts secured.You can generate a password of 6 to 25 words containing letters, symbols, and numbers. 
+As well as you can also define your own length of the password from 6 words to 25 words.
 
 Hope it will be useful and you will love it. ❤️
 
