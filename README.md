@@ -47,6 +47,10 @@ Users should be able to:
 - [JavaScript Number Methods](https://www.w3schools.com/js/js_number_methods.asp) - This helped me to convert the string into the number.
 - [HTML DOM Document querySelector](https://www.w3schools.com/jsref/met_document_queryselector.asp) - This helped me to select the classes from html.
 - [EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) - This helped me to listen the click event to perform calculation.
+- The Math Object
+- If else statements
+- Logical Operator
+- For Loops
 
 
 
